@@ -348,7 +348,10 @@
           modules.forEach(moduleIterator);
 
         }
-      }
+      },
+
+      carpetComponents,
+      carpetModules
     };
 
   };
