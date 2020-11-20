@@ -1,6 +1,6 @@
 /*!
  * Carpet.js v3.1.3 (http://mateuszgachowski.github.io/Carpet.js/)
- * Copyright 2014-2017 Mateusz Gachowski <mateusz.gachowski@gmail.com>
+ * Copyright 2014-2020 Mateusz Gachowski <mateusz.gachowski@gmail.com>
  * Licensed under MIT
  */
 (function (root, factory) {
@@ -353,7 +353,10 @@
           modules.forEach(moduleIterator);
 
         }
-      }
+      },
+
+      carpetComponents: carpetComponents,
+      carpetModules: carpetModules
     };
 
   };

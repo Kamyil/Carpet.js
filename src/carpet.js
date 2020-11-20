@@ -350,8 +350,8 @@
         }
       },
 
-      carpetComponents,
-      carpetModules
+      carpetComponents: carpetComponents,
+      carpetModules: carpetModules
     };
 
   };
